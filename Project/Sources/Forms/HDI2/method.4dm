@@ -20,7 +20,7 @@ Case of
 		Form:C1466.posTextBox:=[100; 50]
 		Form:C1466.moveTextBox:=[-1; 1]
 		Form:C1466.minTextBox:=[100; 10]
-		Form:C1466.maxTextBox:=[130; 190]
+		Form:C1466.maxTextBox:=[130; 220]
 		
 		If (Shift down:C543)
 			Form:C1466.ping:=File:C1566(Folder:C1567(fk resources folder:K87:11).path+"Sounds/ping.mp3").platformPath

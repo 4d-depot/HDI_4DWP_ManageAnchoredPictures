@@ -515,6 +515,30 @@
 					"height": 230,
 					"sizingX": "move",
 					"sizingY": "grow"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Top bottom",
+					"top": 550,
+					"left": 580,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Square",
+					"top": 595,
+					"left": 580,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
 				}
 			}
 		}
@@ -530,5 +554,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 2290
+	"geometryStamp": 2294
 }

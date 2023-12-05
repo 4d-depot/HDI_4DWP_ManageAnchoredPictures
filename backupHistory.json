@@ -1,0 +1,29 @@
+{
+	"Tiny Sur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_4DWP_ManageAnchoredPictures:Project:HDI_4DWP_ManageAnchoredPictures.4DProject": [
+		{
+			"backupPath": "Tiny Sur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_4DWP_ManageAnchoredPictures:data[0001].4BK",
+			"structurePath": "Tiny Sur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_4DWP_ManageAnchoredPictures:Project:HDI_4DWP_ManageAnchoredPictures.4DProject",
+			"dataPath": "Tiny Sur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_4DWP_ManageAnchoredPictures:Data:data.4DD",
+			"logPath": "",
+			"startingDate": "2023-10-26T06:20:08.983Z",
+			"endingDate": "2023-10-26T06:20:08.983Z",
+			"scheduledDate": "2023-10-26T06:20:08.983Z",
+			"backupNumber": 1,
+			"duration": 72,
+			"attachments": [
+				{
+					"attachmentPath": "Tiny Sur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_4DWP_ManageAnchoredPictures:Data:data.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "Tiny Sur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_4DWP_ManageAnchoredPictures:Data:data.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "Tiny Sur:Users:rl4d:Documents:Github:HDIs:V20R4:HDI_4DWP_ManageAnchoredPictures:Data:data.4DIndx",
+					"found": true
+				}
+			]
+		}
+	]
+}
