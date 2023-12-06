@@ -64,8 +64,8 @@ Case of
 					End if 
 					Form:C1466.posPict[$xy]+=Form:C1466.movePict[$xy]
 				End for 
-				WP SET ATTRIBUTES:C1342($elem; wk anchor horizontal offset:K81:236; String:C10(Form:C1466.posPict[0])+"mm")
-				WP SET ATTRIBUTES:C1342($elem; wk anchor vertical offset:K81:238; String:C10(Form:C1466.posPict[1])+"mm")
+				WP SET ATTRIBUTES:C1342($elem; wk anchor horizontal offset:K81:236; String:C10(Form:C1466.posPict[0])+"mm"\
+					; wk anchor vertical offset:K81:238; String:C10(Form:C1466.posPict[1])+"mm")
 			End if 
 			
 			
@@ -86,8 +86,8 @@ Case of
 					End if 
 					Form:C1466.posTextBox[$xy]+=Form:C1466.moveTextBox[$xy]
 				End for 
-				WP SET ATTRIBUTES:C1342($elem; wk anchor horizontal offset:K81:236; String:C10(Form:C1466.posTextBox[0])+"mm")
-				WP SET ATTRIBUTES:C1342($elem; wk anchor vertical offset:K81:238; String:C10(Form:C1466.posTextBox[1])+"mm")
+				WP SET ATTRIBUTES:C1342($elem; wk anchor horizontal offset:K81:236; String:C10(Form:C1466.posTextBox[0])+"mm"\
+					; wk anchor vertical offset:K81:238; String:C10(Form:C1466.posTextBox[1])+"mm")
 			End if 
 			
 			SET TIMER:C645(-1)
