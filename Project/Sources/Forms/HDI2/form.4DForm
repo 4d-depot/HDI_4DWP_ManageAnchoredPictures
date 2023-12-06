@@ -90,7 +90,7 @@
 					"type": "groupBox",
 					"text": "Standard action for pictures",
 					"top": 70,
-					"left": 540,
+					"left": 560,
 					"width": 260,
 					"height": 420,
 					"sizingX": "move"
@@ -99,7 +99,7 @@
 					"type": "checkbox",
 					"text": "Trace code",
 					"top": 740,
-					"left": 1023,
+					"left": 1043,
 					"width": 137,
 					"height": 20,
 					"events": [
@@ -107,7 +107,7 @@
 					],
 					"dataSource": "Form:C1466.trace",
 					"sizingX": "move",
-					"sizingY": "move",
+					"sizingY": "fixed",
 					"focusable": false
 				},
 				"WParea2": {
@@ -158,7 +158,7 @@
 					"type": "button",
 					"text": "Image behind",
 					"top": 120,
-					"left": 560,
+					"left": 580,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -176,7 +176,7 @@
 					"type": "button",
 					"text": "Image inline",
 					"top": 160,
-					"left": 560,
+					"left": 580,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -194,7 +194,7 @@
 					"type": "button",
 					"text": "Image over",
 					"top": 200,
-					"left": 560,
+					"left": 580,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -211,8 +211,8 @@
 				"Bouton3": {
 					"type": "button",
 					"text": "Text wrap square",
-					"top": 280,
-					"left": 560,
+					"top": 320,
+					"left": 580,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -223,13 +223,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "image/anchorLayout?value=wrapSquare"
 				},
 				"Bouton4": {
 					"type": "button",
 					"text": "Text wrap Top & bottom",
-					"top": 320,
-					"left": 560,
+					"top": 280,
+					"left": 580,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -240,13 +241,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "image/anchorLayout?value=wrapTopBottom"
 				},
 				"Bouton5": {
 					"type": "button",
 					"text": "Text wrap Left",
 					"top": 360,
-					"left": 560,
+					"left": 580,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -257,13 +259,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "image/anchorLayout?value=wrapSquareLeft"
 				},
 				"Bouton6": {
 					"type": "button",
 					"text": "Text wrap Right",
 					"top": 400,
-					"left": 560,
+					"left": 580,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -274,13 +277,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "image/anchorLayout?value=wrapSquareRight"
 				},
 				"Bouton7": {
 					"type": "button",
 					"text": "Text wrap Largest",
 					"top": 440,
-					"left": 560,
+					"left": 580,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -291,13 +295,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "image/anchorLayout?value=wrapSquareLargest"
 				},
 				"Zone de groupe1": {
 					"type": "groupBox",
 					"text": "Standard action for text boxes",
 					"top": 70,
-					"left": 840,
+					"left": 860,
 					"width": 260,
 					"height": 420,
 					"sizingX": "move"
@@ -306,7 +311,7 @@
 					"type": "button",
 					"text": "Text box behind",
 					"top": 120,
-					"left": 860,
+					"left": 880,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -324,7 +329,7 @@
 					"type": "button",
 					"text": "Text box over",
 					"top": 200,
-					"left": 860,
+					"left": 880,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -342,7 +347,7 @@
 					"type": "button",
 					"text": "Text wrap square",
 					"top": 280,
-					"left": 860,
+					"left": 880,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -353,13 +358,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "textBox/anchorLayout?value=wrapSquare"
 				},
 				"Bouton12": {
 					"type": "button",
 					"text": "Text wrap Top & bottom",
 					"top": 320,
-					"left": 860,
+					"left": 880,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -370,13 +376,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "textBox/anchorLayout?value=wrapTopBottom"
 				},
 				"Bouton13": {
 					"type": "button",
 					"text": "Text wrap Left",
 					"top": 360,
-					"left": 860,
+					"left": 880,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -387,13 +394,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "textBox/anchorLayout?value=wrapSquareLeft"
 				},
 				"Bouton14": {
 					"type": "button",
 					"text": "Text wrap Right",
 					"top": 400,
-					"left": 860,
+					"left": 880,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -404,13 +412,14 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "textBox/anchorLayout?value=wrapSquareRight"
 				},
 				"Bouton15": {
 					"type": "button",
 					"text": "Text wrap Largest",
 					"top": 440,
-					"left": 860,
+					"left": 880,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -421,12 +430,13 @@
 					"iconFrames": 4,
 					"textPlacement": "right",
 					"sizingX": "move",
-					"focusable": false
+					"focusable": false,
+					"action": "textBox/anchorLayout?value=wrapSquareLargest"
 				},
 				"Image statique1": {
 					"type": "picture",
 					"top": 90,
-					"left": 1050,
+					"left": 1070,
 					"width": 42,
 					"height": 42,
 					"picture": "/RESOURCES/Images/TextBoxes/InsertTextBox_48.png",
@@ -436,7 +446,7 @@
 				"Image statique2": {
 					"type": "picture",
 					"top": 90,
-					"left": 750,
+					"left": 770,
 					"width": 42,
 					"height": 42,
 					"picture": "/RESOURCES/Images/Images/Images_48.png",
@@ -446,7 +456,7 @@
 				"Image statique4": {
 					"type": "picture",
 					"top": 360,
-					"left": 1119,
+					"left": 1139,
 					"width": 40,
 					"height": 40,
 					"picture": "/RESOURCES/Images/new.png",
@@ -456,7 +466,7 @@
 				"Ligne": {
 					"type": "line",
 					"top": 287,
-					"left": 1109,
+					"left": 1129,
 					"width": 0,
 					"height": 190,
 					"strokeWidth": 2,
@@ -466,7 +476,7 @@
 				"Ligne1": {
 					"type": "line",
 					"top": 287,
-					"left": 809,
+					"left": 829,
 					"width": 0,
 					"height": 190,
 					"strokeWidth": 2,
@@ -500,45 +510,171 @@
 					"type": "groupBox",
 					"text": "Code samples for pictures",
 					"top": 500,
-					"left": 540,
+					"left": 560,
 					"width": 260,
 					"height": 230,
 					"sizingX": "move",
-					"sizingY": "grow"
+					"sizingY": "fixed"
 				},
 				"Zone de groupe3": {
 					"type": "groupBox",
 					"text": "Code samples for text boxes",
 					"top": 500,
-					"left": 840,
+					"left": 860,
 					"width": 260,
 					"height": 230,
 					"sizingX": "move",
-					"sizingY": "grow"
+					"sizingY": "fixed"
 				},
 				"Button": {
 					"type": "button",
 					"text": "Top bottom",
-					"top": 550,
-					"left": 580,
+					"top": 548,
+					"left": 600,
 					"width": 185,
 					"height": 25,
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button.4dm"
+					"method": "ObjectMethods/Button.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
 				},
 				"Button1": {
 					"type": "button",
 					"text": "Square",
-					"top": 595,
-					"left": 580,
+					"top": 577,
+					"left": 600,
 					"width": 185,
 					"height": 25,
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button1.4dm"
+					"method": "ObjectMethods/Button1.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Top bottom",
+					"top": 548,
+					"left": 900,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Square",
+					"top": 577,
+					"left": 900,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button4": {
+					"type": "button",
+					"text": "Left only",
+					"top": 605,
+					"left": 600,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button4.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button5": {
+					"type": "button",
+					"text": "Left only",
+					"top": 605,
+					"left": 900,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button5.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button6": {
+					"type": "button",
+					"text": "Right only",
+					"top": 635,
+					"left": 600,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button6.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button7": {
+					"type": "button",
+					"text": "Right only",
+					"top": 635,
+					"left": 900,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button7.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button8": {
+					"type": "button",
+					"text": "Largest side",
+					"top": 665,
+					"left": 600,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button8.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
+				},
+				"Button9": {
+					"type": "button",
+					"text": "Largest side",
+					"top": 665,
+					"left": 900,
+					"width": 185,
+					"height": 25,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button9.4dm",
+					"focusable": false,
+					"sizingX": "move",
+					"sizingY": "fixed"
 				}
 			}
 		}
@@ -554,5 +690,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 2294
+	"geometryStamp": 2393
 }

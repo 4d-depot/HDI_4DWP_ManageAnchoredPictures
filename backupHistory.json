@@ -25,5 +25,32 @@
 				}
 			]
 		}
+	],
+	"Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_4DWP_ManageAnchoredPictures:Project:HDI_4DWP_ManageAnchoredPictures.4DProject": [
+		{
+			"backupPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_4DWP_ManageAnchoredPictures:data[0001].4BK",
+			"structurePath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_4DWP_ManageAnchoredPictures:Project:HDI_4DWP_ManageAnchoredPictures.4DProject",
+			"dataPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_4DWP_ManageAnchoredPictures:Data:data.4DD",
+			"logPath": "",
+			"startingDate": "2023-12-06T08:44:34.121Z",
+			"endingDate": "2023-12-06T08:44:34.121Z",
+			"scheduledDate": "2023-12-06T08:44:34.121Z",
+			"backupNumber": 1,
+			"duration": 52,
+			"attachments": [
+				{
+					"attachmentPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_4DWP_ManageAnchoredPictures:Data:data.4DSyncHeader",
+					"found": false
+				},
+				{
+					"attachmentPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_4DWP_ManageAnchoredPictures:Data:data.4DSyncData",
+					"found": false
+				},
+				{
+					"attachmentPath": "Macintosh HD:Users:rolandlannuzel:Documents:Github:HDI:4D V20 R4:HDI_4DWP_ManageAnchoredPictures:Data:data.4DIndx",
+					"found": true
+				}
+			]
+		}
 	]
 }

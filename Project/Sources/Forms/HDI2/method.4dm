@@ -1,4 +1,7 @@
 var $info : cs:C1710.INFOSelection
+var $col : Collection
+var $xy : Integer
+var $elem : Object
 
 Case of 
 		
