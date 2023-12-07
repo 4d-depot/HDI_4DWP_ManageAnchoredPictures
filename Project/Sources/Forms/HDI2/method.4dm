@@ -16,7 +16,7 @@ Case of
 		Form:C1466.animate:=False:C215
 		
 		Form:C1466.posPict:=[10; 20]
-		Form:C1466.movePict:=[1; 1]
+		Form:C1466.movePict:=[1; 1]  // 1 means left to right; 1 means top to bottom
 		Form:C1466.minPict:=[10; 10]
 		Form:C1466.maxPict:=[70; 250]
 		
@@ -51,6 +51,7 @@ Case of
 				$elem:=$col[0]
 				
 				For ($xy; 0; 1)
+					
 					If (Form:C1466.movePict[$xy]=1)  // left to right ot top to bottom
 						If (Form:C1466.posPict[$xy]>=Form:C1466.maxPict[$xy])
 							Form:C1466.movePict[$xy]:=-1
@@ -62,7 +63,8 @@ Case of
 							PLAY:C290(Form:C1466.pong)
 						End if 
 					End if 
-					Form:C1466.posPict[$xy]+=Form:C1466.movePict[$xy]
+					Form:C1466.posPict[$xy]+=Form:C1466.movePict[$xy]*7
+					
 				End for 
 				WP SET ATTRIBUTES:C1342($elem; wk anchor horizontal offset:K81:236; String:C10(Form:C1466.posPict[0])+"mm"\
 					; wk anchor vertical offset:K81:238; String:C10(Form:C1466.posPict[1])+"mm")
@@ -84,7 +86,7 @@ Case of
 							//PLAY(Form.pong)
 						End if 
 					End if 
-					Form:C1466.posTextBox[$xy]+=Form:C1466.moveTextBox[$xy]
+					Form:C1466.posTextBox[$xy]+=Form:C1466.moveTextBox[$xy]*5
 				End for 
 				WP SET ATTRIBUTES:C1342($elem; wk anchor horizontal offset:K81:236; String:C10(Form:C1466.posTextBox[0])+"mm"\
 					; wk anchor vertical offset:K81:238; String:C10(Form:C1466.posTextBox[1])+"mm")

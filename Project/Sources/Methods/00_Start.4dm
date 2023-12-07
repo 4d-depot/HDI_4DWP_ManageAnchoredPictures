@@ -28,7 +28,7 @@ Case of
 		
 		$options:=New object:C1471
 		
-		$options.title:="Manage anchored pictures and text boxes?"  //+$cr+"00_Start Method"
+		$options.title:="Manage text wrapping arround pictures and text boxes?"  //+$cr+"00_Start Method"
 		
 		$options.blog:="blog.4d.com"
 		$options.info:="4D Write Pro feature"  //ex : "4D View Pro feature"
