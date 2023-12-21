@@ -69,6 +69,7 @@
 					"method": "ObjectMethods/WParea.4dm",
 					"events": [
 						"onLoad",
+						"onClick",
 						"onLosingFocus",
 						"onGettingFocus",
 						"onSelectionChange",
@@ -155,9 +156,28 @@
 						"onClick"
 					],
 					"method": "ObjectMethods/Button2.4dm"
+				},
+				"btn_pictID": {
+					"type": "button",
+					"text": "Set Picture ID",
+					"top": 755,
+					"left": 244,
+					"width": 167,
+					"height": 23,
+					"events": [
+						"onClick"
+					],
+					"sizingY": "move"
 				}
 			}
 		}
 	],
-	"geometryStamp": 24
+	"geometryStamp": 29,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
 }

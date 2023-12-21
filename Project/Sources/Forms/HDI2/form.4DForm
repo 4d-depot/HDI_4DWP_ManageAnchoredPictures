@@ -2,7 +2,7 @@
 	"destination": "detailScreen",
 	"windowMinWidth": 1200,
 	"windowMaxWidth": 32000,
-	"windowMinHeight": 800,
+	"windowMinHeight": 880,
 	"windowMaxHeight": 32000,
 	"width": 1200,
 	"height": 880,
@@ -132,7 +132,7 @@
 					"sizingY": "move",
 					"focusable": false
 				},
-				"WParea2": {
+				"WPareaPage2": {
 					"type": "write",
 					"top": 100,
 					"left": 40,
@@ -145,7 +145,7 @@
 					"scrollbarVertical": "hidden",
 					"scrollbarHorizontal": "hidden",
 					"borderStyle": "none",
-					"method": "ObjectMethods/WParea2.4dm",
+					"method": "ObjectMethods/WPareaPage2.4dm",
 					"events": [
 						"onLoad",
 						"onLosingFocus",
@@ -153,9 +153,9 @@
 						"onSelectionChange",
 						"onAfterEdit"
 					],
-					"showHeaders": false,
-					"showFooters": false,
-					"showHorizontalRuler": true,
+					"showHeaders": true,
+					"showFooters": true,
+					"showHorizontalRuler": false,
 					"showVerticalRuler": false,
 					"layoutMode": "page",
 					"enterable": true,
@@ -851,6 +851,24 @@
 					"stroke": "#1e90ff",
 					"sizingY": "move",
 					"sizingX": "move"
+				},
+				"Règle": {
+					"type": "ruler",
+					"left": 432,
+					"top": 760,
+					"width": 88,
+					"height": 20,
+					"max": 100,
+					"events": [
+						"onDataChange"
+					],
+					"sizingX": "move",
+					"sizingY": "move",
+					"method": "ObjectMethods/Règle.4dm",
+					"dataSource": "Form:C1466.zoom",
+					"focusable": false,
+					"min": 50,
+					"step": 25
 				}
 			}
 		}
@@ -866,5 +884,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 3828
+	"geometryStamp": 3862
 }
