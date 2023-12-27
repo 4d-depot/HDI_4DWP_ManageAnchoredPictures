@@ -86,6 +86,43 @@
 		},
 		{
 			"objects": {
+				"Static Picture2": {
+					"type": "picture",
+					"top": 272,
+					"left": 814,
+					"width": 90,
+					"height": 190,
+					"picture": "/RESOURCES/Images/arcs.png",
+					"pictureFormat": "scaled"
+				},
+				"Image statique4": {
+					"type": "picture",
+					"top": 347,
+					"left": 839,
+					"width": 40,
+					"height": 40,
+					"picture": "/RESOURCES/Images/new.png",
+					"pictureFormat": "scaled",
+					"sizingX": "move"
+				},
+				"Zone de groupe": {
+					"type": "groupBox",
+					"text": "Standard action for pictures",
+					"top": 90,
+					"left": 560,
+					"width": 280,
+					"height": 390,
+					"sizingX": "move"
+				},
+				"Zone de groupe1": {
+					"type": "groupBox",
+					"text": "Standard action for text boxes",
+					"top": 90,
+					"left": 880,
+					"width": 280,
+					"height": 390,
+					"sizingX": "move"
+				},
 				"Zone de groupe4": {
 					"type": "groupBox",
 					"text": "Export",
@@ -106,15 +143,6 @@
 					"focusable": false,
 					"action": "section/columnCount",
 					"sizingY": "move",
-					"sizingX": "fixed"
-				},
-				"Zone de groupe": {
-					"type": "groupBox",
-					"text": "Standard action for pictures",
-					"top": 90,
-					"left": 560,
-					"width": 280,
-					"height": 390,
 					"sizingX": "move"
 				},
 				"btnTrace": {
@@ -322,15 +350,6 @@
 					"focusable": false,
 					"action": "image/anchorLayout?value=wrapSquareLargest"
 				},
-				"Zone de groupe1": {
-					"type": "groupBox",
-					"text": "Standard action for text boxes",
-					"top": 90,
-					"left": 880,
-					"width": 280,
-					"height": 390,
-					"sizingX": "move"
-				},
 				"Bouton8": {
 					"type": "button",
 					"text": "Text box behind",
@@ -477,26 +496,16 @@
 					"pictureFormat": "truncatedTopLeft",
 					"sizingX": "move"
 				},
-				"Image statique4": {
-					"type": "picture",
-					"top": 345,
-					"left": 840,
-					"width": 40,
-					"height": 40,
-					"picture": "/RESOURCES/Images/new.png",
-					"pictureFormat": "scaled",
-					"sizingX": "move"
-				},
 				"Image3": {
 					"type": "picture",
 					"top": 799,
-					"left": 396,
+					"left": 395,
 					"width": 24,
 					"height": 24,
 					"pictureFormat": "truncatedTopLeft",
 					"picture": "/RESOURCES/Images/Toolbar1/Columns/columnsNumber_24.png",
 					"sizingY": "move",
-					"sizingX": "fixed"
+					"sizingX": "move"
 				},
 				"Zone de groupe2": {
 					"type": "groupBox",
@@ -855,7 +864,7 @@
 				"Règle": {
 					"type": "ruler",
 					"left": 432,
-					"top": 760,
+					"top": 770,
 					"width": 88,
 					"height": 20,
 					"max": 100,
@@ -869,6 +878,17 @@
 					"focusable": false,
 					"min": 50,
 					"step": 25
+				},
+				"Static Picture1": {
+					"type": "picture",
+					"top": 765,
+					"left": 395,
+					"width": 24,
+					"height": 24,
+					"picture": "/RESOURCES/Images/Images/Zoom_24.png",
+					"pictureFormat": "truncatedTopLeft",
+					"sizingY": "move",
+					"sizingX": "move"
 				}
 			}
 		}
@@ -884,5 +904,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 3862
+	"geometryStamp": 4112
 }
