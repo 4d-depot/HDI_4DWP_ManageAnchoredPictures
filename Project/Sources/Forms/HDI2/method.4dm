@@ -24,7 +24,7 @@ Case of
 		
 		
 		Form:C1466.minX:=[0; 0; 8; 0]
-		Form:C1466.maxX:=[18; 10; 14; 18]
+		Form:C1466.maxX:=[18; 10; 14; 19]
 		Form:C1466.shiftX:=[1; 0.5; 0.5; 1]
 		
 		Form:C1466.minY:=[0; 3; 6; 0]

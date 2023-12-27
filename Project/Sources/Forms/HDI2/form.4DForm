@@ -160,7 +160,7 @@
 					"layoutMode": "page",
 					"enterable": true,
 					"zoom": 75,
-					"dpi": 0
+					"dpi": 72
 				},
 				"Case à cocher": {
 					"type": "checkbox",
