@@ -7,5 +7,5 @@ End if
 
 $mode:=wk text wrap square right:K81:383
 
-$elem:=WP Get elements:C1550(WParea; wk type image:K81:192)[0]
+$elem:=WP Get element by ID:C1549(WParea; "pict_body")
 WP SET ATTRIBUTES:C1342($elem; wk anchor layout:K81:227; $mode)

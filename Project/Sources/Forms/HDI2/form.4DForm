@@ -218,8 +218,8 @@
 				"Bouton1": {
 					"type": "button",
 					"text": "Image inline",
-					"top": 148,
-					"left": 1440,
+					"top": 158,
+					"left": 1347,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -915,5 +915,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 4035
+	"geometryStamp": 4037
 }

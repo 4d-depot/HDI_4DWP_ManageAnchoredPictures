@@ -7,6 +7,6 @@ End if
 
 $mode:=wk text wrap top bottom:K81:379
 
-$elem:=WP Get elements:C1550(WParea; wk type text box:K81:372)[0]
+$elem:=WP Get element by ID:C1549(WParea; "textBox_body")
 WP SET ATTRIBUTES:C1342($elem; wk anchor layout:K81:227; $mode)
 
