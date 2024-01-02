@@ -86,32 +86,13 @@
 		},
 		{
 			"objects": {
-				"Static Picture2": {
-					"type": "picture",
-					"top": 272,
-					"left": 814,
-					"width": 90,
-					"height": 190,
-					"picture": "/RESOURCES/Images/arcs.png",
-					"pictureFormat": "scaled"
-				},
-				"Image statique4": {
-					"type": "picture",
-					"top": 347,
-					"left": 839,
-					"width": 40,
-					"height": 40,
-					"picture": "/RESOURCES/Images/new.png",
-					"pictureFormat": "scaled",
-					"sizingX": "move"
-				},
 				"Zone de groupe": {
 					"type": "groupBox",
 					"text": "Standard action for pictures",
 					"top": 90,
 					"left": 560,
 					"width": 280,
-					"height": 390,
+					"height": 380,
 					"sizingX": "move"
 				},
 				"Zone de groupe1": {
@@ -120,7 +101,17 @@
 					"top": 90,
 					"left": 880,
 					"width": 280,
-					"height": 390,
+					"height": 380,
+					"sizingX": "move"
+				},
+				"Image statique4": {
+					"type": "picture",
+					"top": 327,
+					"left": 840,
+					"width": 40,
+					"height": 40,
+					"picture": "/RESOURCES/Images/new.png",
+					"pictureFormat": "scaled",
 					"sizingX": "move"
 				},
 				"Zone de groupe4": {
@@ -227,8 +218,8 @@
 				"Bouton1": {
 					"type": "button",
 					"text": "Image inline",
-					"top": 170,
-					"left": 580,
+					"top": 148,
+					"left": 1440,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -245,7 +236,7 @@
 				"Bouton2": {
 					"type": "button",
 					"text": "Image over",
-					"top": 210,
+					"top": 170,
 					"left": 580,
 					"width": 220,
 					"height": 35,
@@ -263,7 +254,7 @@
 				"Bouton3": {
 					"type": "button",
 					"text": "Text wrap square",
-					"top": 310,
+					"top": 290,
 					"left": 580,
 					"width": 220,
 					"height": 35,
@@ -281,7 +272,7 @@
 				"Bouton4": {
 					"type": "button",
 					"text": "Text wrap Top & bottom",
-					"top": 270,
+					"top": 250,
 					"left": 580,
 					"width": 220,
 					"height": 35,
@@ -299,7 +290,7 @@
 				"Bouton5": {
 					"type": "button",
 					"text": "Text wrap Left",
-					"top": 350,
+					"top": 330,
 					"left": 580,
 					"width": 220,
 					"height": 35,
@@ -317,7 +308,7 @@
 				"Bouton6": {
 					"type": "button",
 					"text": "Text wrap Right",
-					"top": 390,
+					"top": 370,
 					"left": 580,
 					"width": 220,
 					"height": 35,
@@ -335,7 +326,7 @@
 				"Bouton7": {
 					"type": "button",
 					"text": "Text wrap Largest",
-					"top": 430,
+					"top": 410,
 					"left": 580,
 					"width": 220,
 					"height": 35,
@@ -354,7 +345,7 @@
 					"type": "button",
 					"text": "Text box behind",
 					"top": 130,
-					"left": 920,
+					"left": 910,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -371,8 +362,8 @@
 				"Bouton10": {
 					"type": "button",
 					"text": "Text box over",
-					"top": 210,
-					"left": 920,
+					"top": 170,
+					"left": 910,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -389,8 +380,8 @@
 				"Bouton11": {
 					"type": "button",
 					"text": "Text wrap square",
-					"top": 270,
-					"left": 920,
+					"top": 250,
+					"left": 910,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -407,8 +398,8 @@
 				"Bouton12": {
 					"type": "button",
 					"text": "Text wrap Top & bottom",
-					"top": 310,
-					"left": 920,
+					"top": 290,
+					"left": 910,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -425,8 +416,8 @@
 				"Bouton13": {
 					"type": "button",
 					"text": "Text wrap Left",
-					"top": 350,
-					"left": 920,
+					"top": 330,
+					"left": 910,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -443,8 +434,8 @@
 				"Bouton14": {
 					"type": "button",
 					"text": "Text wrap Right",
-					"top": 390,
-					"left": 920,
+					"top": 370,
+					"left": 910,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -461,8 +452,8 @@
 				"Bouton15": {
 					"type": "button",
 					"text": "Text wrap Largest",
-					"top": 430,
-					"left": 920,
+					"top": 410,
+					"left": 910,
 					"width": 220,
 					"height": 35,
 					"events": [
@@ -478,8 +469,8 @@
 				},
 				"Image statique1": {
 					"type": "picture",
-					"top": 105,
-					"left": 1110,
+					"top": 110,
+					"left": 1088,
 					"width": 42,
 					"height": 42,
 					"picture": "/RESOURCES/Images/TextBoxes/InsertTextBox_48.png",
@@ -488,8 +479,8 @@
 				},
 				"Image statique2": {
 					"type": "picture",
-					"top": 105,
-					"left": 770,
+					"top": 110,
+					"left": 768,
 					"width": 42,
 					"height": 42,
 					"picture": "/RESOURCES/Images/Images/Images_48.png",
@@ -510,27 +501,27 @@
 				"Zone de groupe2": {
 					"type": "groupBox",
 					"text": "Code samples for pictures",
-					"top": 500,
+					"top": 490,
 					"left": 560,
 					"width": 280,
-					"height": 190,
+					"height": 210,
 					"sizingX": "move",
 					"sizingY": "grow"
 				},
 				"Zone de groupe3": {
 					"type": "groupBox",
 					"text": "Code samples for text boxes",
-					"top": 500,
+					"top": 490,
 					"left": 880,
 					"width": 280,
-					"height": 190,
+					"height": 210,
 					"sizingX": "move",
 					"sizingY": "grow"
 				},
 				"Button": {
 					"type": "button",
 					"text": "Top bottom",
-					"top": 528,
+					"top": 522,
 					"left": 590,
 					"width": 200,
 					"height": 25,
@@ -545,7 +536,7 @@
 				"Button1": {
 					"type": "button",
 					"text": "Square",
-					"top": 557,
+					"top": 555,
 					"left": 590,
 					"width": 200,
 					"height": 25,
@@ -560,7 +551,7 @@
 				"Button2": {
 					"type": "button",
 					"text": "Top bottom",
-					"top": 528,
+					"top": 522,
 					"left": 930,
 					"width": 200,
 					"height": 25,
@@ -575,7 +566,7 @@
 				"Button3": {
 					"type": "button",
 					"text": "Square",
-					"top": 557,
+					"top": 555,
 					"left": 930,
 					"width": 200,
 					"height": 25,
@@ -590,7 +581,7 @@
 				"Button4": {
 					"type": "button",
 					"text": "Left only",
-					"top": 585,
+					"top": 588,
 					"left": 590,
 					"width": 200,
 					"height": 25,
@@ -605,7 +596,7 @@
 				"Button5": {
 					"type": "button",
 					"text": "Left only",
-					"top": 585,
+					"top": 588,
 					"left": 930,
 					"width": 200,
 					"height": 25,
@@ -620,7 +611,7 @@
 				"Button6": {
 					"type": "button",
 					"text": "Right only",
-					"top": 615,
+					"top": 621,
 					"left": 590,
 					"width": 200,
 					"height": 25,
@@ -635,7 +626,7 @@
 				"Button7": {
 					"type": "button",
 					"text": "Right only",
-					"top": 615,
+					"top": 621,
 					"left": 930,
 					"width": 200,
 					"height": 25,
@@ -650,7 +641,7 @@
 				"Button8": {
 					"type": "button",
 					"text": "Largest side",
-					"top": 645,
+					"top": 654,
 					"left": 590,
 					"width": 200,
 					"height": 25,
@@ -665,7 +656,7 @@
 				"Button9": {
 					"type": "button",
 					"text": "Largest side",
-					"top": 645,
+					"top": 654,
 					"left": 930,
 					"width": 200,
 					"height": 25,
@@ -889,6 +880,26 @@
 					"pictureFormat": "truncatedTopLeft",
 					"sizingY": "move",
 					"sizingX": "move"
+				},
+				"Line1": {
+					"type": "line",
+					"top": 226,
+					"left": 620,
+					"width": 160,
+					"height": 0,
+					"stroke": "#808080",
+					"startPoint": "topLeft",
+					"sizingX": "move"
+				},
+				"Line2": {
+					"type": "line",
+					"top": 226,
+					"left": 940,
+					"width": 160,
+					"height": 0,
+					"stroke": "#808080",
+					"startPoint": "topLeft",
+					"sizingX": "move"
 				}
 			}
 		}
@@ -904,5 +915,5 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 4112
+	"geometryStamp": 4035
 }
