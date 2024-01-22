@@ -900,6 +900,35 @@
 					"stroke": "#808080",
 					"startPoint": "topLeft",
 					"sizingX": "move"
+				},
+				"btn_pageModePage": {
+					"type": "checkbox",
+					"top": 50,
+					"left": 435,
+					"width": 40,
+					"height": 40,
+					"tooltip": "Page mode",
+					"action": "pageMode?value=page",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar1/View/Page_32.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"sizingX": "move"
+				},
+				"btn_pageModeEmbedded": {
+					"type": "checkbox",
+					"top": 50,
+					"left": 475,
+					"width": 40,
+					"height": 40,
+					"tooltip": "Embedded mode",
+					"action": "pageMode?value=embedded",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Toolbar1/View/Web_32.png",
+					"iconFrames": 4,
+					"textPlacement": "center",
+					"style": "toolbar",
+					"sizingX": "move"
 				}
 			}
 		}
@@ -915,5 +944,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 4037
+	"geometryStamp": 4045,
+	"menuBar": "Barre #1"
 }
