@@ -3,13 +3,24 @@
 <base name="HDI_4DWP_ManageAnchoredPictures" uuid="56C6D37CB1EC47E3A030F6D50EB4C91B" collation_locale="fr">
 	<schema name="DEFAULT_SCHEMA"/>
 	<table name="INFO" uuid="107A367EBCC346259FD971E8FC1097DA" id="1">
-		<field name="ID" uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
-		<field name="tabTitle" uuid="58AF214936C941439CB263026A5B46ED" type="10" limiting_length="255" never_null="true" id="3"/>
-		<field name="pageNumber" uuid="A2D86BBFD5134D06999CBDD14FD07A27" type="4" never_null="true" id="4"/>
+		<field name="ID" uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" type="4" unique="true" autosequence="true" not_null="true" id="1">
+			<field_extra position="1"/>
+		</field>
+		<field name="tabTitle" uuid="58AF214936C941439CB263026A5B46ED" type="10" limiting_length="255" never_null="true" id="3">
+			<field_extra position="3"/>
+		</field>
+		<field name="pageNumber" uuid="A2D86BBFD5134D06999CBDD14FD07A27" type="4" never_null="true" id="4">
+			<field_extra position="2"/>
+		</field>
 		<field name="wp" uuid="7693FF59E3EF422BA41873E846A8A749" type="21" blob_switch_size="2147483647" never_null="true" id="5"/>
 		<field name="sample" uuid="EB4F84A2B9B94598A13B0B988BD2A4D8" type="21" blob_switch_size="2147483647" never_null="true" id="6"/>
 		<primary_key field_name="ID" field_uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B"/>
-		<table_extra input_form="Input" output_form="Output"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="46.71484375" top="0" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
 	</table>
 	<index kind="regular" unique_keys="true" uuid="704A9721EA634D00BB8D3AB4AE5137A0" type="1">
 		<field_ref uuid="C6DBB917EEE44AF9BDA57ABA22C55C6B" name="ID">
