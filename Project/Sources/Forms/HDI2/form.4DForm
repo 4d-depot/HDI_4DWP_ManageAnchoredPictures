@@ -88,7 +88,7 @@
 			"objects": {
 				"Zone de groupe": {
 					"type": "groupBox",
-					"text": "Standard action for pictures",
+					"text": "Standard actions for pictures",
 					"top": 90,
 					"left": 560,
 					"width": 280,
@@ -97,7 +97,7 @@
 				},
 				"Zone de groupe1": {
 					"type": "groupBox",
-					"text": "Standard action for text boxes",
+					"text": "Standard actions for text boxes",
 					"top": 90,
 					"left": 880,
 					"width": 280,
@@ -139,7 +139,7 @@
 				"btnTrace": {
 					"type": "checkbox",
 					"text": "Trace code",
-					"top": 846,
+					"top": 850,
 					"left": 1043,
 					"width": 137,
 					"height": 20,
@@ -184,7 +184,7 @@
 				"Case à cocher": {
 					"type": "checkbox",
 					"text": "Animate (test purpose)",
-					"top": 851,
+					"top": 850,
 					"left": 40,
 					"width": 228,
 					"height": 20,
@@ -195,7 +195,7 @@
 					"method": "ObjectMethods/Case à cocher.4dm",
 					"sizingY": "move",
 					"focusable": false,
-					"stroke": "#ff6347"
+					"stroke": "automatic"
 				},
 				"Bouton": {
 					"type": "button",
@@ -944,6 +944,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 4045,
+	"geometryStamp": 4050,
 	"menuBar": "Barre #1"
 }

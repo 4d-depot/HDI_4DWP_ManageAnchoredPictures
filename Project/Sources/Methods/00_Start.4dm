@@ -33,7 +33,7 @@ Case of
 		$options.blog:="blog.4d.com"
 		$options.info:="4D Write Pro feature"  //ex : "4D View Pro feature"
 		
-		$options.minimumVersion:="2040"  // 2040 means 20R4   2003 means 20.3 (do not use !)
+		$options.minimumVersion:="2050"  // 2050 means 20R5   2003 means 20.3 (do not use !)
 		
 		$options.license:=4D Write license:K44:2  // IF ANY NEEDED
 		
