@@ -197,49 +197,31 @@
 					"focusable": false,
 					"stroke": "automatic"
 				},
-				"Bouton": {
-					"type": "button",
+				"CB_ImageBehind1": {
+					"type": "checkbox",
 					"text": "Image behind",
 					"top": 130,
 					"left": 580,
-					"width": 220,
-					"height": 35,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
 					"style": "toolbar",
-					"icon": "/RESOURCES/Images/textWrap/imageBehindText_48.png",
-					"iconFrames": 4,
-					"textPlacement": "right",
 					"sizingX": "move",
 					"action": "image/anchorLayout?value=behind",
-					"focusable": false
-				},
-				"Bouton1": {
-					"type": "button",
-					"text": "Image inline",
-					"top": 158,
-					"left": 1347,
-					"width": 220,
-					"height": 35,
-					"events": [
-						"onClick"
-					],
-					"style": "toolbar",
-					"icon": "/RESOURCES/Images/textWrap/imageInLine_48.png",
-					"iconFrames": 4,
+					"focusable": false,
 					"textPlacement": "right",
-					"sizingX": "move",
-					"action": "image/anchorLayout?value=inline",
-					"focusable": false
+					"iconFrames": 4,
+					"icon": "/RESOURCES/Images/textWrap/imageBehindText_48.png"
 				},
-				"Bouton2": {
-					"type": "button",
+				"CB_ImageInFront1": {
+					"type": "checkbox",
 					"text": "Image over",
 					"top": 170,
 					"left": 580,
-					"width": 220,
-					"height": 35,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -251,13 +233,13 @@
 					"action": "image/anchorLayout?value=front",
 					"focusable": false
 				},
-				"Bouton3": {
-					"type": "button",
+				"CB_TextWrapSquare1": {
+					"type": "checkbox",
 					"text": "Text wrap square",
 					"top": 290,
 					"left": 580,
-					"width": 220,
-					"height": 35,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -269,13 +251,13 @@
 					"focusable": false,
 					"action": "image/anchorLayout?value=wrapSquare"
 				},
-				"Bouton4": {
-					"type": "button",
+				"CB_TextWrapTopBottom1": {
+					"type": "checkbox",
 					"text": "Text wrap Top & bottom",
 					"top": 250,
 					"left": 580,
-					"width": 220,
-					"height": 35,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -287,13 +269,13 @@
 					"focusable": false,
 					"action": "image/anchorLayout?value=wrapTopBottom"
 				},
-				"Bouton5": {
-					"type": "button",
+				"CB_TextWrapLeft1": {
+					"type": "checkbox",
 					"text": "Text wrap Left",
 					"top": 330,
 					"left": 580,
-					"width": 220,
-					"height": 35,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -305,13 +287,13 @@
 					"focusable": false,
 					"action": "image/anchorLayout?value=wrapSquareLeft"
 				},
-				"Bouton6": {
-					"type": "button",
+				"CB_TextWrapRight1": {
+					"type": "checkbox",
 					"text": "Text wrap Right",
 					"top": 370,
 					"left": 580,
-					"width": 220,
-					"height": 35,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -323,13 +305,13 @@
 					"focusable": false,
 					"action": "image/anchorLayout?value=wrapSquareRight"
 				},
-				"Bouton7": {
-					"type": "button",
+				"CB_TextWrapLargest1": {
+					"type": "checkbox",
 					"text": "Text wrap Largest",
 					"top": 410,
 					"left": 580,
-					"width": 220,
-					"height": 35,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -341,13 +323,13 @@
 					"focusable": false,
 					"action": "image/anchorLayout?value=wrapSquareLargest"
 				},
-				"Bouton8": {
-					"type": "button",
+				"CB_ImageBehind2": {
+					"type": "checkbox",
 					"text": "Text box behind",
 					"top": 130,
-					"left": 910,
-					"width": 220,
-					"height": 35,
+					"left": 900,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -359,13 +341,13 @@
 					"focusable": false,
 					"action": "textBox/anchorLayout?value=behind"
 				},
-				"Bouton10": {
-					"type": "button",
+				"CB_ImageInFront2": {
+					"type": "checkbox",
 					"text": "Text box over",
 					"top": 170,
-					"left": 910,
-					"width": 220,
-					"height": 35,
+					"left": 900,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -377,13 +359,13 @@
 					"focusable": false,
 					"action": "textBox/anchorLayout?value=front"
 				},
-				"Bouton11": {
-					"type": "button",
+				"CB_TextWrapSquare2": {
+					"type": "checkbox",
 					"text": "Text wrap square",
-					"top": 250,
-					"left": 910,
-					"width": 220,
-					"height": 35,
+					"top": 290,
+					"left": 900,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -395,13 +377,13 @@
 					"focusable": false,
 					"action": "textBox/anchorLayout?value=wrapSquare"
 				},
-				"Bouton12": {
-					"type": "button",
+				"CB_TextWrapTopBottom2": {
+					"type": "checkbox",
 					"text": "Text wrap Top & bottom",
-					"top": 290,
-					"left": 910,
-					"width": 220,
-					"height": 35,
+					"top": 250,
+					"left": 900,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -413,13 +395,13 @@
 					"focusable": false,
 					"action": "textBox/anchorLayout?value=wrapTopBottom"
 				},
-				"Bouton13": {
-					"type": "button",
+				"CB_TextWrapLeft2": {
+					"type": "checkbox",
 					"text": "Text wrap Left",
 					"top": 330,
-					"left": 910,
-					"width": 220,
-					"height": 35,
+					"left": 900,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -431,13 +413,13 @@
 					"focusable": false,
 					"action": "textBox/anchorLayout?value=wrapSquareLeft"
 				},
-				"Bouton14": {
-					"type": "button",
+				"CB_TextWrapRight2": {
+					"type": "checkbox",
 					"text": "Text wrap Right",
 					"top": 370,
-					"left": 910,
-					"width": 220,
-					"height": 35,
+					"left": 900,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -449,13 +431,13 @@
 					"focusable": false,
 					"action": "textBox/anchorLayout?value=wrapSquareRight"
 				},
-				"Bouton15": {
-					"type": "button",
+				"CB_TextWrapLargest2": {
+					"type": "checkbox",
 					"text": "Text wrap Largest",
 					"top": 410,
-					"left": 910,
-					"width": 220,
-					"height": 35,
+					"left": 900,
+					"width": 230,
+					"height": 40,
 					"events": [
 						"onClick"
 					],
@@ -470,7 +452,7 @@
 				"Image statique1": {
 					"type": "picture",
 					"top": 110,
-					"left": 1088,
+					"left": 1098,
 					"width": 42,
 					"height": 42,
 					"picture": "/RESOURCES/Images/TextBoxes/InsertTextBox_48.png",
@@ -480,7 +462,7 @@
 				"Image statique2": {
 					"type": "picture",
 					"top": 110,
-					"left": 768,
+					"left": 778,
 					"width": 42,
 					"height": 42,
 					"picture": "/RESOURCES/Images/Images/Images_48.png",
@@ -518,7 +500,7 @@
 					"sizingX": "move",
 					"sizingY": "grow"
 				},
-				"Button": {
+				"BTN_TextWrapTopBottom1": {
 					"type": "button",
 					"text": "Top bottom",
 					"top": 522,
@@ -528,12 +510,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button.4dm",
+					"method": "ObjectMethods/BTN_TextWrapTopBottom1.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button1": {
+				"BTN_TextWrapSquare1": {
 					"type": "button",
 					"text": "Square",
 					"top": 555,
@@ -543,12 +525,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button1.4dm",
+					"method": "ObjectMethods/BTN_TextWrapSquare1.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button2": {
+				"BTN_TextWrapTopBottom2": {
 					"type": "button",
 					"text": "Top bottom",
 					"top": 522,
@@ -558,12 +540,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button2.4dm",
+					"method": "ObjectMethods/BTN_TextWrapTopBottom2.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button3": {
+				"BTN_TextWrapSquare2": {
 					"type": "button",
 					"text": "Square",
 					"top": 555,
@@ -573,12 +555,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button3.4dm",
+					"method": "ObjectMethods/BTN_TextWrapSquare2.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button4": {
+				"BTN_TextWrapLeft1": {
 					"type": "button",
 					"text": "Left only",
 					"top": 588,
@@ -588,12 +570,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button4.4dm",
+					"method": "ObjectMethods/BTN_TextWrapLeft1.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button5": {
+				"BTN_TextWrapLeft2": {
 					"type": "button",
 					"text": "Left only",
 					"top": 588,
@@ -603,12 +585,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button5.4dm",
+					"method": "ObjectMethods/BTN_TextWrapLeft2.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button6": {
+				"BTN_TextWrapRight1": {
 					"type": "button",
 					"text": "Right only",
 					"top": 621,
@@ -618,12 +600,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button6.4dm",
+					"method": "ObjectMethods/BTN_TextWrapRight1.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button7": {
+				"BTN_TextWrapRight2": {
 					"type": "button",
 					"text": "Right only",
 					"top": 621,
@@ -633,12 +615,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button7.4dm",
+					"method": "ObjectMethods/BTN_TextWrapRight2.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button8": {
+				"BTN_TextWrapLargest1": {
 					"type": "button",
 					"text": "Largest side",
 					"top": 654,
@@ -648,12 +630,12 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button8.4dm",
+					"method": "ObjectMethods/BTN_TextWrapLargest1.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
 				},
-				"Button9": {
+				"BTN_TextWrapLargest2": {
 					"type": "button",
 					"text": "Largest side",
 					"top": 654,
@@ -663,7 +645,7 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button9.4dm",
+					"method": "ObjectMethods/BTN_TextWrapLargest2.4dm",
 					"focusable": false,
 					"sizingX": "move",
 					"sizingY": "fixed"
@@ -894,7 +876,7 @@
 				"Line2": {
 					"type": "line",
 					"top": 226,
-					"left": 940,
+					"left": 930,
 					"width": 160,
 					"height": 0,
 					"stroke": "#808080",
@@ -944,6 +926,6 @@
 			"View 1": {}
 		}
 	},
-	"geometryStamp": 4050,
+	"geometryStamp": 4160,
 	"menuBar": "Barre #1"
 }
