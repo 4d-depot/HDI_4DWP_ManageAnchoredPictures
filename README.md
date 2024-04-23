@@ -1,6 +1,6 @@
 # HDI_4DWP_ManageAnchoredPictures
 
-Manage text wrapping around pictures and text boxes (4D 20 R5)
+Manage text wrapping around pictures and text boxes in [4D Write Pro](https://us.4d.com/4D-write-pro) documents (4D 20 R5)
 
 Find more information on the [blog post](https://blog.4d.com/).
 
