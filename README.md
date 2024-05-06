@@ -2,7 +2,7 @@
 
 Manage text wrapping around pictures and text boxes in [4D Write Pro](https://us.4d.com/4D-write-pro) documents (4D 20 R5)
 
-Find more information on the [blog post](https://blog.4d.com/).
+Find more information on the [blog post](https://blog.4d.com/4d-write-pro-more-display-options-for-anchored-pictures-and-text-boxes/).
 
 ## Installing and Using a 4D Project
 
